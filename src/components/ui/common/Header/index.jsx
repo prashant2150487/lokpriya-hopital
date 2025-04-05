@@ -9,9 +9,9 @@ const Header = () => {
     <header className="sticky top-0 z-40 w-full  bg-white flex justify-center ">
       <div className="container flex h-16 items-center justify-between">
         <div className="flex items-center gap-2">
-            <img src={logo}  alt="logo" className="w-13"/>
+            {/* <img src={logo}  alt="logo" className="w-13"/> */}
           <Heart className="h-6 w-6 text-rose-500" />
-          <span className="text-xl font-bold">MediCare Hospital</span>
+          <span className="text-xl font-bold">Lokpriya Hospital</span>
         </div>
         <nav className="hidden md:flex items-center gap-6">
           <Link
