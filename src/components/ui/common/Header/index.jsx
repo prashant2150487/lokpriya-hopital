@@ -46,7 +46,7 @@ const Header = () => {
           </Link> */}
           <Link
             to="/about"
-            className="text-sm font-medium hover:text-rose-500 transition-colors pointer-events-none"
+            className="text-sm font-medium hover:text-rose-500 transition-colors"
           >
             About
           </Link>

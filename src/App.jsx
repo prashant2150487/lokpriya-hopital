@@ -1,14 +1,13 @@
-import './App.css'
-import { Button } from './components/ui/button'
-import Home from './pages/home'
+import { RouterProvider } from "react-router-dom";
+import "./App.css";
+import router from "./routes/routes";
 
 function App() {
-
   return (
     <>
-      <Home />
+      <RouterProvider router={router} />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
