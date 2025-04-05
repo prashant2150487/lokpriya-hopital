@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 const InfoBar = () => {
   return (
     <div className="w-full bg-gray-100 py-2 hidden md:block">
-      <div className="container flex justify-between items-center text-sm">
+      <div className="container flex justify-between items-center text-sm mx-auto">
         <div className="flex items-center gap-4">
           <div className="flex items-center gap-1">
             <Phone className="h-4 w-4 text-rose-500" />

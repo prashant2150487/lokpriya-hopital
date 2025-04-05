@@ -2,12 +2,14 @@ import { Heart } from "lucide-react";
 import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "../../button";
+import logo from "../../../../assets/log.jpeg";
 
 const Header = () => {
   return (
-    <header className="sticky top-0 z-40 w-full border-b bg-white">
+    <header className="sticky top-0 z-40 w-full  bg-white flex justify-center ">
       <div className="container flex h-16 items-center justify-between">
         <div className="flex items-center gap-2">
+            <img src={logo}  alt="logo" className="w-13"/>
           <Heart className="h-6 w-6 text-rose-500" />
           <span className="text-xl font-bold">MediCare Hospital</span>
         </div>
@@ -18,13 +20,13 @@ const Header = () => {
           >
             Home
           </Link>
-          <Link
+          {/* <Link
             to="/services"
             className="text-sm font-medium hover:text-rose-500 transition-colors"
           >
             Services
-          </Link>
-          <Link
+          </Link> */}
+          {/* <Link
             to="/departments"
             className="text-sm font-medium hover:text-rose-500 transition-colors"
           >
@@ -35,20 +37,20 @@ const Header = () => {
             className="text-sm font-medium hover:text-rose-500 transition-colors"
           >
             Doctors
-          </Link>
-          <Link
+          </Link> */}
+          {/* <Link
             to="/testimonials"
             className="text-sm font-medium hover:text-rose-500 transition-colors"
           >
             Testimonials
-          </Link>
+          </Link> */}
           <Link
             to="/about"
-            className="text-sm font-medium hover:text-rose-500 transition-colors"
+            className="text-sm font-medium hover:text-rose-500 transition-colors pointer-events-none"
           >
             About
           </Link>
-          <Link
+          {/* <Link
             to="/faq"
             className="text-sm font-medium hover:text-rose-500 transition-colors"
           >
@@ -59,12 +61,12 @@ const Header = () => {
             className="text-sm font-medium hover:text-rose-500 transition-colors"
           >
             News
-          </Link>
-          <Button size="sm" className="bg-rose-500 hover:bg-rose-600">
+          </Link> */}
+          <Button size="sm" className="bg-rose-500 hover:bg-rose-600 text-white">
             Contact Us
           </Button>
         </nav>
-        <Button variant="ghost" size="icon" className="md:hidden">
+        <Button variant="ghost" size="icon" className="md:hidden ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
